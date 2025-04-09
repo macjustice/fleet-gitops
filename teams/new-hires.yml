@@ -1,6 +1,7 @@
 name: New Hires
 policies:
   - path: ../lib/windows-device-health.policies.yml
+  - path: ../lib/1password-emergency-kit-check.yml
 queries:
   - path: ../lib/collect-failed-login-attempts.queries.yml
 agent_options:
@@ -10,6 +11,7 @@ controls:
     - path: ../lib/collect-fleetd-logs.sh
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
+    - path: ../lib/1password-emergency-kit-remove.sh
   macos_settings:
     custom_settings:
       - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
