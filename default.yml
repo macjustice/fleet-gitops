@@ -19,6 +19,9 @@ org_settings:
     activities_webhook:
       enable_activities_webhook: true
       destination_url: https://webhook.site/86c80a90-3ef9-408d-9173-71eb4cffe39c
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/86c80a90-3ef9-408d-9173-71eb4cffe39c
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   fleet_desktop:
